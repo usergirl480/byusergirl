@@ -24,7 +24,7 @@ async function searchVideos(keyword) {
         url: video.author.url,
       },
     };
-  }).slice(0, 5); // limita o número de resultados para 5
+  }).slice(0, 10); // limita o número de resultados para 5
 
   return {items:formattedVideos};
 }
